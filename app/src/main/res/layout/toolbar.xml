@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_gravity="bottom">
+
+    <ImageView
+        android:id="@+id/botel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/botel_icon"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/phone"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/phone_icon"
+        app:layout_constraintEnd_toStartOf="@+id/doctor"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/botel" />
+
+    <ImageView
+        android:id="@+id/doctor"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:src="@drawable/doctor_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/diamond"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/phone" />
+
+    <ImageView
+        android:id="@+id/diamond"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/diamond_icon"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/calander"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/doctor" />
+
+    <ImageView
+        android:id="@+id/calander"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/calander_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/diamond" />
+
+
+    <!--<ImageView-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:layout_marginRight="35dp"-->
+    <!--android:layout_marginLeft="35dp"-->
+    <!--android:id="@+id/botel"-->
+    <!--android:src="@drawable/botel_icon"/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:layout_marginRight="35dp"-->
+    <!--android:id="@+id/phone"-->
+    <!--android:src="@drawable/phone_icon"/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="35dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:layout_marginRight="35dp"-->
+    <!--android:id="@+id/doctor"-->
+    <!--android:src="@drawable/doctor_icon"/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:layout_marginRight="35dp"-->
+    <!--android:id="@+id/diamond"-->
+    <!--android:src="@drawable/diamond_icon"/>-->
+    <!--<ImageView-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:layout_marginRight="25dp"-->
+    <!--android:id="@+id/calander"-->
+    <!--android:src="@drawable/calander_icon"/>-->
+
+</android.support.constraint.ConstraintLayout>
